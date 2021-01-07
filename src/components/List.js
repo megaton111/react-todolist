@@ -3,6 +3,10 @@ import { RiCheckboxBlankCircleLine, RiCheckboxCircleFill } from 'react-icons/ri'
 import { MdCreate } from 'react-icons/md' ;
 
 const TodoListBlock = styled.div`
+  display:flex ; 
+  flex-direction: column ; 
+  flex: 1; 
+  overflow-y:auto ; 
 ` ; 
 
 const TodoItem = styled.div`
@@ -10,10 +14,10 @@ const TodoItem = styled.div`
   align-items:center ; 
   background:#fff ; 
   border-radius:4px ; 
-  min-height:30px ; 
+  min-height:46px ; 
   padding:10px 15px ; 
   font-size:14px ; 
-  margin:10px 0 ;
+  margin-bottom:5px ; 
 ` ; 
 
 const CheckCircle = styled.div`
@@ -78,6 +82,102 @@ const List = _ => {
           <Cancel />
         </ModifyBlock> */}
 
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
+      </TodoItem>
+
+      <TodoItem>
+        <CheckCircle>
+          <RiCheckboxBlankCircleLine />
+          {/* <RiCheckboxCircleFill /> */}
+        </CheckCircle>
+        <div>토요일 모임 장보기</div>
       </TodoItem>
 
       <TodoItem>
