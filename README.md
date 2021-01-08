@@ -19,4 +19,7 @@ css는 별도로 관리하지 않고 styled components를 설치하여 js파일 
 npm install react-icons --save
 ```
 
+## Consumer, Provider를 활용하여 데이터 관리
 
+### TodoContext.js  
+할일 데이터를 관리하는 곳
